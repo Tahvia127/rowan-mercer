@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{NAME}} | {{TAGLINE}}, {{CITY}}</title>
+<meta name="description" content="{{INTRO_SHORT}}">
+<meta property="og:title" content="{{NAME}} — {{TAGLINE}}">
+<meta property="og:description" content="{{INTRO_SHORT}}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/{{HERO_ID}}-1600.webp" imagesrcset="{{HERO_SRCSET}}" imagesizes="100vw">
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body>
+<a class="skip" href="#work">Skip to the photographs</a>
+{{DEMOBAR}}
+
+<header class="nav" id="nav"><div class="shell">
+  <a class="logo" href="#top">{{NAME}}</a>
+  <nav aria-label="Primary"><ul>
+    <li><a href="#work">Work</a></li>
+    <li><a href="#speed">Speed</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul></nav>
+  <a class="btn fill" href="#contact">Check a date</a>
+</div></header>
+
+<header class="hero" id="top">
+  <img src="assets/img/{{HERO_ID}}-1600.webp" srcset="{{HERO_SRCSET}}" sizes="100vw"
+       alt="" width="1600" height="1067" fetchpriority="high">
+  <div class="inner">
+    <p class="eyebrow">{{TAGLINE}} &middot; {{CITY}}</p>
+    <h1>The day, as it happened</h1>
+    <p>{{INTRO}}</p>
+    <a class="btn light" href="#work">See the work</a>
+  </div>
+</header>
+
+<section class="section" id="work"><div class="shell">
+  <div class="head center rv">
+    <p class="eyebrow">Selected work</p>
+    <h2>{{N_PHOTOS}} photographs</h2>
+    <p>Click any frame to open it full size. Arrow keys move through the set.</p>
+  </div>
+  <div class="filters" role="group" aria-label="Filter by collection">{{FILTERS}}</div>
+  <div class="gal">{{SHOTS}}</div>
+</div></section>
+
+<section class="perf" id="speed"><div class="shell">
+  <p class="eyebrow">Why it loads fast</p>
+  <h2>A gallery this size usually crawls</h2>
+  <p>Photographers lose bookings to slow sites, because the people browsing at 11pm on a phone do not wait. Every photograph here is served at the size it is actually displayed, in WebP, and nothing below the fold is fetched until it is needed.</p>
+  <div class="pgrid">
+    <div class="pcell"><b>{{SRC_MB}} MB</b><span>Original photographs, straight from the camera export</span></div>
+    <div class="pcell"><b>{{GRID_KB}} KB</b><span>The entire grid, if every single frame loads</span></div>
+    <div class="pcell"><b>{{AVG_KB}} KB</b><span>Average per photograph in the grid</span></div>
+    <div class="pcell"><b>{{N_RENDITIONS}}</b><span>Renditions generated, so the browser can choose</span></div>
+  </div>
+  <p class="pnote" id="measured">Measuring this page load&hellip;</p>
+  <p class="pnote">Each photograph is built at three widths. A phone downloads the 480px file, a laptop the 900px, and the full 1600px version is only fetched when a frame is opened. Below the fold nothing loads at all until you scroll to it, and each frame fades up from a 20-pixel placeholder that is embedded in the HTML, so there is no layout shift and no empty grey box.</p>
+</div></section>
+
+<section class="section section-alt" id="packages"><div class="shell">
+  <div class="head center rv"><p class="eyebrow">Packages</p><h2>What it costs</h2>
+    <p>Every package includes the full edited gallery, delivered online within four weeks, with a print release.</p></div>
+  <div class="pks">{{PKS}}</div>
+</div></section>
+
+<section class="section" id="contact"><div class="narrow">
+  <div class="head center rv"><p class="eyebrow">Contact</p><h2>Check a date</h2>
+    <p>Tell me when and where, and I will say straight away whether I am free. I take a limited number of weddings a year so the ones I do get my full attention.</p></div>
+  <div class="info rv" style="text-align:center">
+    <div><h4>Email</h4><p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p></div>
+    <div><h4>Phone</h4><p><a href="tel:{{PHONE_RAW}}">{{PHONE}}</a></p></div>
+    <div><h4>Instagram</h4><p>{{IG}}</p></div>
+  </div>
+</div></section>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Photograph viewer" aria-hidden="true">
+  <button class="x" id="lbClose" aria-label="Close">&times;</button>
+  <button class="prev" id="lbPrev" aria-label="Previous photograph">&#8249;</button>
+  <img id="lbImg" alt="">
+  <button class="next" id="lbNext" aria-label="Next photograph">&#8250;</button>
+  <p class="meta" id="lbMeta"></p>
+</div>
+
+{{DEMOFOOT}}
+<footer><div class="shell">
+  <span>&copy; <span id="yr">2026</span> {{NAME}}</span>
+  <span>{{CITY}} and anywhere worth the flight</span>
+  <span><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></span>
+</div></footer>
+{{SCRIPT}}
+</body>
+</html>

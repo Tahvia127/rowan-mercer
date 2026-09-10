@@ -1,0 +1,120 @@
+{
+  "note": "Assign each photo a collection and caption. Order here is the order on the page.",
+  "photos": [
+    {
+      "id": "w1",
+      "collection": "Ceremony",
+      "caption": "The first look"
+    },
+    {
+      "id": "w2",
+      "collection": "Portraits",
+      "caption": "Golden hour"
+    },
+    {
+      "id": "w4",
+      "collection": "Details",
+      "caption": "The bouquet"
+    },
+    {
+      "id": "w5",
+      "collection": "Reception",
+      "caption": "First dance"
+    },
+    {
+      "id": "w6",
+      "collection": "Ceremony",
+      "caption": "Walking out"
+    },
+    {
+      "id": "w7",
+      "collection": "Portraits",
+      "caption": "Just the two"
+    },
+    {
+      "id": "w8",
+      "collection": "Details",
+      "caption": "Table one"
+    },
+    {
+      "id": "w9",
+      "collection": "Reception",
+      "caption": "Toasts"
+    },
+    {
+      "id": "w10",
+      "collection": "Ceremony",
+      "caption": "Vows, unrehearsed"
+    },
+    {
+      "id": "w11",
+      "collection": "Portraits",
+      "caption": "On the road"
+    },
+    {
+      "id": "w12",
+      "collection": "Details",
+      "caption": "Candles down"
+    },
+    {
+      "id": "w14",
+      "collection": "Reception",
+      "caption": "The band"
+    },
+    {
+      "id": "w15",
+      "collection": "Ceremony",
+      "caption": "Confetti"
+    },
+    {
+      "id": "w16",
+      "collection": "Portraits",
+      "caption": "The black sand"
+    },
+    {
+      "id": "w20",
+      "collection": "Details",
+      "caption": "Stems"
+    },
+    {
+      "id": "w22",
+      "collection": "Reception",
+      "caption": "Late night"
+    },
+    {
+      "id": "w23",
+      "collection": "Ceremony",
+      "caption": "The aisle"
+    },
+    {
+      "id": "w24",
+      "collection": "Portraits",
+      "caption": "Veil and wind"
+    },
+    {
+      "id": "w25",
+      "collection": "Details",
+      "caption": "Something borrowed"
+    },
+    {
+      "id": "w26",
+      "collection": "Reception",
+      "caption": "Last song"
+    },
+    {
+      "id": "w28",
+      "collection": "Ceremony",
+      "caption": "Rings"
+    },
+    {
+      "id": "w29",
+      "collection": "Portraits",
+      "caption": "Field light"
+    },
+    {
+      "id": "w30",
+      "collection": "Details",
+      "caption": "The setting"
+    }
+  ]
+}

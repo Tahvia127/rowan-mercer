@@ -1,0 +1,20 @@
+{
+  "name": "Rowan Mercer",
+  "tagline": "Wedding Photography",
+  "city": "Chicago",
+  "intro": "I photograph weddings the way they actually happen: the long hug from a grandparent, the shoes coming off at ten, the light going gold for eleven minutes and then gone. I shoot quietly and I stay until the end.",
+  "phone": "(555) 555-0117",
+  "email": "hello@rowanmercer.example",
+  "instagram": "@rowanmercer",
+  "packages": [
+    { "name": "Elopement", "hours": "4 hours", "price": 2400, "note": "One photographer, 250+ edited frames, online gallery." },
+    { "name": "Full day", "hours": "9 hours", "price": 4800, "featured": true, "note": "Two photographers, 700+ edited frames, gallery and print release." },
+    { "name": "Weekend", "hours": "Two days", "price": 7200, "note": "Rehearsal and wedding day, two photographers, album included." }
+  ],
+  "demo": {
+    "show": true,
+    "text": "Demo site. Rowan Mercer is a fictional photographer, built to show what a small-business site can do.",
+    "linkText": "Made by Framework Studio",
+    "url": "https://tahvia127.github.io/framework-studio/"
+  }
+}
